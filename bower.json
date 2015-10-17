@@ -1,0 +1,38 @@
+{
+  "name": "wubay",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Ron-Yu/wubay",
+  "authors": [
+    "Ron Yu <ronyu77@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.3",
+    "motion-ui": "~1.0.0"
+  },
+  "overrides": {
+    "foundation": {
+      "main": []
+    },
+    "motion-ui": {
+      "main": "dist/motion-ui.js"
+    },
+    "modernizr": {
+      "main": "./modernizr.js"
+    }
+  },
+  "devDependencies": {}
+}
